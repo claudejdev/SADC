@@ -1,0 +1,32 @@
+GameEntity : "{D19C474FA0F42CC3}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_base.et" {
+ ID "5DF2774398EBD275"
+ components {
+  InventoryItemComponent "{5E38A40D482770CE}" {
+   Attributes SCR_ItemAttributeCollection "{5E38A40D4BC49A36}" {
+    ItemDisplayName UIInfo "{5E38A40D4C298215}" {
+     Name "Aircrew Gloves"
+     Description "SA-made protective gloves worn by aircrews, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DF2774268A6E4AA}" {
+   WornModel "{21A2418D3254A422}Assets/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_Browns.et"
+   ItemModel "{5AAF4C9B2F2BBCA7}Assets/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_Item_Browns.et"
+   DeflatedModel "{7BB984936F03A751}Assets/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_Deflated_Browns.et"
+   AreaTypeWhenModelChange {
+    LoadoutJacketArea "{6286426B666ECFC5}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{5DF2774268A6E5EF}" {
+   ActionContexts {
+    UserActionContext "{5DF2774268A6E542}" {
+     Position PointInfo "{5DF2774268A6E541}" {
+      Offset 0 0.0297 0.0429
+     }
+    }
+   }
+  }
+ }
+ coords 113.813 1 120.809
+}

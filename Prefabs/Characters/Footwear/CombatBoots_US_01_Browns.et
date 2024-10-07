@@ -1,0 +1,17 @@
+GenericEntity : "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" {
+ ID "51A4D7EC51788198"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D60112379774}" {
+    ItemDisplayName UIInfo "{52C8D6011199206B}" {
+     Name "SADF Combat Boots"
+     Description "Ordinary formal and operational footwear of the SADF, made from genuine, water-resistant brown leather."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   WornModel "{A0B065445F9FF171}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01_Browns.et"
+   ItemModel "{4A19C1341624172E}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01_item_Browns.et"
+  }
+ }
+}

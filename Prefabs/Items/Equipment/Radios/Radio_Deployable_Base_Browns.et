@@ -1,0 +1,163 @@
+GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SoundComponent "{6288492E21731914}" {
+   Filenames {
+    "{5409F2998421DA59}Sounds/Items/Equipment/Radios/Items_Radio_Inspection_Actions.acp" "{4AB5F7FA7BB2CCBF}Sounds/Items/_SharedData/PickUp/Items_PickUp_RespawnKit.acp" "{77EF656D5DAC6FD5}Sounds/Items/_SharedData/Drop/Items_Drop_RespawnKit.acp" "{EFFB3D8065A486E3}Sounds/Items/DeployableRadio/Items_DeployableRadio.acp"
+   }
+   SoundPoints {
+    SoundPointInfo RadioPosition {
+     Offset 0 1.2272 0
+    }
+   }
+  }
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "chickenNuggets"
+   Transceivers {
+    RadioTransceiver "{6288492E21731AE8}" {
+     ChannelFrequency 48000
+     "Transmitting Range" 2000
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 76000
+    }
+   }
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{D29C3ADD27E3E71A}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_item.xob"
+  }
+  RigidBody "{5A30BAE7673C63D3}" {
+   ModelGeometry 1
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "AN/PRC-77 Radio - Brown"
+     Description "A mid-range, manpack radio, used by the SADF for tactical communications at squad-level and above, in the SADF distinctive ‘brown’ nutria camouflage."
+     Icon "{CF038C42DC15871B}UI/Textures/VON/ANPRC77-100px_UI.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 9
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 10000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6288492E21731A92}" {
+      CameraPreset Back
+      CameraOrbitAngles 25 -25 180
+      CameraDistanceToItem 3
+      CameraOffset 0 -0.25 0
+      FOV 10
+      PreviewModel "{BA5D2EE89E84BDA3}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01.xob"
+     }
+     SCR_VONPreviewAttributes "{6288492E21731A80}" {
+      CameraOrbitAngles 0 210 0
+      CameraDistanceToItem 1.8
+      CameraOffset 0 0 0
+      FOV 40
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_iRadioCategory MANPACK
+   m_iRadioType ANPRC77
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{6288492E21731A70}" {
+   m_sSpawnPointPrefab "{35347E7AA6BDF8CE}Prefabs/MP/Spawning/ItemSpecifics/RestrictedDeployableSpawnPoint_Radio.et"
+   m_bQuerySpawnPoints 1
+   m_fQueryRadiusBases 80
+   m_fQueryRadiusSpawnPoints 80
+   m_fQueryRadiusCharacters 60
+   m_bQueryAllBases 1
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   Enabled 0
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{4AB5F7FA7BB2CCBF}Sounds/Items/_SharedData/PickUp/Items_PickUp_RespawnKit.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{4AB5F7FA7BB2CCBF}Sounds/Items/_SharedData/PickUp/Items_PickUp_RespawnKit.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{77EF656D5DAC6FD5}Sounds/Items/_SharedData/Drop/Items_Drop_RespawnKit.acp"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6288492E21731A56}" {
+   AreaType LoadoutBackpackArea "{6288492E21731A49}" {
+   }
+   WornModel "{65228141AB8C2E78}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_Browns.et"
+   ItemModel "{42908D4BC574D365}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_item_Browns.et"
+   VisibleInVehicle 0
+   DepthBack 0.025
+   OffsetShoulderLeft -0.1
+   OffsetShoulderRight 0.1
+   DeflatedModel "{4646D672C90B8FE7}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_Inflated_Browns.et"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{6288492E21731A43}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.1504 -0.1458
+     }
+    }
+   }
+   additionalActions {
+    SCR_DeployableInventoryItemPickUpAction "{51EC842E3A187379}" {
+    }
+    SCR_DeployableInventoryItemEquipClothAction "{553AEBE8F3B60801}" : "{83B98F1A96591AC6}Prefabs/Characters/Core/Actions/EquipClothAction.conf" {
+    }
+    SCR_DeployInventoryItemRestrictedAction "{6288492E21731A37}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6288492E21731A2B}" {
+      Name "#AR-DeployableSpawnPoints_Deploy"
+     }
+     Duration 5
+    }
+    SCR_DismantleInventoryItemBaseAction "{6288492E21731A2F}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6288492E21731A2D}" {
+      Name "#AR-DeployableSpawnPoints_Dismantle"
+     }
+    }
+    SCR_ShowDeployableSpawnPointInfo "{6288492E21731A22}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6288492E21731A06}" {
+      Name "#AR-DeployableSpawnPoints_ShowRespawnInfo"
+     }
+    }
+    SCR_OpenDeployableSpawnPointStorageAction "{6288492E21731BFA}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6288492E21731BF9}" {
+      Name "#AR-Inventory_OpenStorage"\
+      ""
+     }
+    }
+    SCR_ToggleDeployableSpawnPointLoadoutAction "{6288492E21731BFE}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6288492E21731BFC}" {
+      Name "#AR-DeployableSpawnPoints_ToggleLoadouts"
+     }
+    }
+   }
+  }
+ }
+}

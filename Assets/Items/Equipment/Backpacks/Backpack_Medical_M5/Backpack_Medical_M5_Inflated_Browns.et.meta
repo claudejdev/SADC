@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4BDBDDD643AFC784}Assets/Items/Equipment/Backpacks/Backpack_Medical_M5/Backpack_Medical_M5_Inflated_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

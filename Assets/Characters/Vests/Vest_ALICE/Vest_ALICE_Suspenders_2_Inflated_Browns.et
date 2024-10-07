@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CBF9745966B"
+ components {
+  MeshObject "{62867CBF9FBDE5B8}" {
+   Object "{2ED08C679E40203A}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_Suspenders_2_Inflated.xob"
+   Materials {
+    MaterialAssignClass "{62867CBF9313239B}" {
+     SourceMaterial "lambert2"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 3.846 -1.575 -1.215
+}

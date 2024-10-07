@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CBEC5E66377"
+ components {
+  MeshObject "{62867CBECEADD336}" {
+   Object "{343B9272088293BE}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Inflated.xob"
+   Materials {
+    MaterialAssignClass "{62867CBEC171C765}" {
+     SourceMaterial "lambert2"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.925 -2.719 -1.504
+}

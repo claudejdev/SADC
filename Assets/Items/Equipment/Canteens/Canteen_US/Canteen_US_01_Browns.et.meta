@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A07C74DCCC649CC6}Assets/Items/Equipment/Canteens/Canteen_US/Canteen_US_01_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

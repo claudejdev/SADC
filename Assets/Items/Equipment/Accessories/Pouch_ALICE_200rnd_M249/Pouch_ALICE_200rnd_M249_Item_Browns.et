@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C31F10681E1"
+ components {
+  MeshObject "{62867C31FA749B7E}" {
+   Object "{3BBDBC37E8C27129}Assets/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249_Item.xob"
+   Materials {
+    MaterialAssignClass "{62867C31FE15319D}" {
+     SourceMaterial "Pouch_ALICE_200rnd_M249"
+     AssignedMaterial "{D03DF5EDA76FD3FD}Assets/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Data/Pouch_ALICE_200rnd_M249_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 0.36 -2.469 -3.562
+}

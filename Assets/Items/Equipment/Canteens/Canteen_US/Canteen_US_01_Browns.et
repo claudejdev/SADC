@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C3C50C9FD5D"
+ components {
+  MeshObject "{62867C3C5912DF97}" {
+   Object "{96CDF4C0166F696E}Assets/Items/Equipment/Canteens/Canteen_US/Canteen_US_01.xob"
+   Materials {
+    MaterialAssignClass "{62867C3C5D16D259}" {
+     SourceMaterial "Canteen_US"
+     AssignedMaterial "{CCC5C8529A37585E}Assets/Items/Equipment/Canteens/Canteen_US/Data/Canteen_US_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 3.816 -1.816 -0.951
+}

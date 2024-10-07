@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C3E1302556A"
+ components {
+  MeshObject "{62867C3E2A8C53B5}" {
+   Object "{67666D029AE6C33C}Assets/Items/Equipment/Accessories/Scabbard_M9Bayonet/Scabbard_M9Bayonet.xob"
+   Materials {
+    MaterialAssignClass "{62867C3E1EEF5FE7}" {
+     SourceMaterial "M9bayonet"
+     AssignedMaterial "{DABA65E46F095007}Assets/Items/Equipment/Accessories/Scabbard_M9Bayonet/Data/Scabbard_M9Bayonet_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 0.818 -1.839 -3.852
+}

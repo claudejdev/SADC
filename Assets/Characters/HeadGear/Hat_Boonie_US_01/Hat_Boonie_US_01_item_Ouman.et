@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C982FD0C3C9"
+ components {
+  MeshObject "{62867C9BC0ED09D2}" {
+   Object "{27E946AE413FE0EF}Assets/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_item.xob"
+   Materials {
+    MaterialAssignClass "{62867C983B36F7C0}" {
+     SourceMaterial "Hat_Boonie_US_01"
+     AssignedMaterial "{1B77355F116066AC}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_02_Ouman.emat"
+    }
+   }
+  }
+ }
+ coords 4.061 -1.74 -1.17
+}

@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C99EFF05743"
+ components {
+  MeshObject "{62867C99F47C5358}" {
+   Object "{A70C3570066AEBB2}Assets/Characters/HeadGear/Helmet_M1/Helmet_M1_01.xob"
+   Materials {
+    MaterialAssignClass "{62867C99EBDBE443}" {
+     SourceMaterial "Helmet_M1"
+     AssignedMaterial "{76E5C8DE280678FC}Assets/Characters/HeadGear/Helmet_M1/Data/Helmet_M1_Rooi.emat"
+    }
+   }
+  }
+ }
+ coords 1.605 -1.192 1.386
+}

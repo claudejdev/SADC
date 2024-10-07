@@ -1,0 +1,25 @@
+GenericEntity : "{C9A4A8A1B5C0742D}Prefabs/Items/Equipment/Accessories/Holster_M12/Holster_M12_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5484B8B04527AF4A}" {
+   Attributes SCR_ItemAttributeCollection "{5484B8B04527AF4D}" {
+    ItemDisplayName UIInfo "{5484B8B04527AF73}" {
+     Name "#AR-LBSComponent_PistolHolster_M12_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5484B8B04527AF76}" {
+     Weight 0.22
+     SizeSetupStrategy Manual
+     ItemVolume 250
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 0
+   MaxItemSize 10 10 10
+   m_fMaxWeight 2.5
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{AB0D93CA72B2A224}Assets/Items/Equipment/Accessories/Holster_M12/Holster_M12_Browns.et"
+   ItemModel "{AB0D93CA72B2A224}Assets/Items/Equipment/Accessories/Holster_M12/Holster_M12_Browns.et"
+  }
+ }
+}

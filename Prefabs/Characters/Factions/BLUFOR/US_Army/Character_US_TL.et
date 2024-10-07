@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "51FA90A5D40EA513"
+ components {
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank CORPORAL
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Team Leader - Browns"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0BF8E2EDE466E84A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_Browns.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{411C9DF626E9C313}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_Browns.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_02_Browns.et"
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5538C29DADB44836}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5538C29DAD1DCAF6}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+    }
+   }
+  }
+ }
+}

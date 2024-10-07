@@ -1,0 +1,57 @@
+GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{BD9C88BC3A51A401}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_item.xob"
+  }
+  SCR_EquipmentStorageComponent "{62867CB186A7B488}" {
+   StoragePurpose 64
+   UseVirtualInventoryReplication 0
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot FlashlightSlot {
+     PivotID "Spine5"
+     Offset -0.11 0.075 0.17
+     Angles 15 0 0
+     Enabled 0
+     Prefab "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     AllowedItemTypes {
+      "FLASHLIGHT"
+     }
+     AnimatedMeshRefference "{EAD7ED9DABE35516}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders.xob"
+     DebugAnimMeshSlotting 0
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5B18D20CB58D1DD7}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{A4549939684B6820}Sounds/Items/_SharedData/PickUp/Items_PickUp_Vest.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{A4549939684B6820}Sounds/Items/_SharedData/PickUp/Items_PickUp_Vest.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{087200FA6DF8D1D2}Sounds/Items/_SharedData/Drop/Items_Drop_Vest.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "#AR-LBSComponent_Suspenders_US_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.4
+    }
+   }
+   m_fMaxWeight 0
+  }
+  BaseLoadoutClothComponent "{62867CB186A7B432}" {
+   WornModel "{45AF77A1ED1528D0}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_Browns.et"
+   ItemModel "{C77AEF8B6F7D3249}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_item_Browns.et"
+   SoundInt 430
+  }
+ }
+ coords 0 0 0
+}

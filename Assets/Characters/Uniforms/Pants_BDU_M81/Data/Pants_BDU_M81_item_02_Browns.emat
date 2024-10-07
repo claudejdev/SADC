@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.227 0.15 0.072 1
+ SpecularIBL 0.227 0.15 0.072 1
+ Specular 0.227 0.15 0.072 1
+ CavityFromAO 0.64
+ BCRMap "{2A8C312C8CA22DA6}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_M81_02_tucked_item_BCR.edds"
+ NMOMap "{12548ABE55D57F38}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_M81_02_tucked_item_NMO.edds"
+}

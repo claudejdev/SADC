@@ -1,0 +1,18 @@
+GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "AN/PRC-77 Radio - Brown"
+     Description "A mid-range, manpack radio, used by the SADF for tactical communications at squad-level and above, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornModel "{65228141AB8C2E78}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_Browns.et"
+   ItemModel "{42908D4BC574D365}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_item_Browns.et"
+   DeflatedModel "{4646D672C90B8FE7}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_Inflated_Browns.et"
+  }
+ }
+}

@@ -1,0 +1,18 @@
+GenericEntity : "{F396524995F06BFA}Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P.et" {
+ ID "50D8C49B3558F152"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5B1AC60515A0AA99}" {
+   Attributes SCR_ItemAttributeCollection "{5B1AC60515A0AA9D}" {
+    ItemDisplayName UIInfo "{5B1AC60515A0AA9F}" {
+     Name "SRU-21/P Survival Vest - Brown"
+     Description "A lightweight vest worn by SADF aircrews with multiple pockets for survival items, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{727931399228FE8F}Assets/Characters/Vests/Vest_SRU21P/Vest_SRU21P_Browns.et"
+   ItemModel "{AC82F0C352A70868}Assets/Characters/Vests/Vest_SRU21P/Vest_SRU21P_item_Browns.et"
+   DeflatedModel "{CCC7D283F0DD2CB9}Assets/Characters/Vests/Vest_SRU21P/Vest_SRU21P_Inflated_Browns.et"
+  }
+ }
+}

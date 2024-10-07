@@ -1,0 +1,21 @@
+GameEntity : "{E8F48DA5F61F0550}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "CWU-27/P Pilot Coveralls - Brown"
+     Description "Lightweight, flame-resistant coveralls, worn by flight crews, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{9D0CFD0AE5E6D609}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01_Browns.et"
+   ItemModel "{0D3F39157ECB8D0B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01_item_Browns.et"
+   BlockedSlots {
+    LoadoutPantsArea "{62867C84E80276F4}" {
+    }
+   }
+  }
+ }
+}

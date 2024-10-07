@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CB43F50061A"
+ components {
+  MeshObject "{62867CB7C72F1E77}" {
+   Object "{AEF5AB8000D7DDCF}Assets/Characters/Uniforms/Pants_BDU_M81/Pants_BDU_M81_tucked.xob"
+   Materials {
+    MaterialAssignClass "{62867CB438C3C99E}" {
+     SourceMaterial "M_Pants_BDU_M81_tucked"
+     AssignedMaterial "{5E59A045ED256003}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_M81_tucked_02_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 0.36 -4.33 1.392
+}

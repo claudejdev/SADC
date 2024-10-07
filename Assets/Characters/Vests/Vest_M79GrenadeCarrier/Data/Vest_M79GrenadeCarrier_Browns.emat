@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ CavityFromAO 0.699
+ BCRMap "{CE5FD57991006441}Assets/Characters/Vests/Vest_M79GrenadeCarrier/Data/Vest_M79GrenadeCarrier_BCR.edds"
+ NMOMap "{F6876EEB487736DF}Assets/Characters/Vests/Vest_M79GrenadeCarrier/Data/Vest_M79GrenadeCarrier_NMO.edds"
+}

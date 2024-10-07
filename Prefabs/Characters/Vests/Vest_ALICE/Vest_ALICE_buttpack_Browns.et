@@ -1,0 +1,56 @@
+GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{E9FD1FFAE7514CB7}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.xob"
+   Materials {
+    MaterialAssignClass "{628E7053520DA717}" {
+     SourceMaterial "vest_ALICE"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5B18D20CB58D1DD7}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{0F536730D5251C70}Sounds/Items/_SharedData/PickUp/Items_PickUp_ALICE.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{0F536730D5251C70}Sounds/Items/_SharedData/PickUp/Items_PickUp_ALICE.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "#AR-LBSComponent_Buttpack_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.45
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 800
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      CameraDistanceToItem 1.6
+      CameraOffset 0 0.04 0
+      FOV 10
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 1600
+   MaxItemSize 15 15 15
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{62867CB1A59850A5}" {
+   Animate 0
+   WornModel "{8D248C7F282D0129}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+   ItemModel "{8D248C7F282D0129}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+   SoundInt 450
+  }
+ }
+ coords 0 0 0
+}

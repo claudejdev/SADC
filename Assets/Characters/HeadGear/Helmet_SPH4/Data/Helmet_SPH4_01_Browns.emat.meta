@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E69F26202428A5D1}Assets/Characters/HeadGear/Helmet_SPH4/Data/Helmet_SPH4_01_Browns.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

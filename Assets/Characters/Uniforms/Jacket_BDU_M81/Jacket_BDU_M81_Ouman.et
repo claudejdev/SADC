@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CB66ADBC7C0"
+ components {
+  MeshObject "{62867CB67FE246AF}" {
+   Object "{6075675D15317A2D}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81.xob"
+   Materials {
+    MaterialAssignClass "{62867CB677C2D6E2}" {
+     SourceMaterial "Jacket_BDU_M81"
+     AssignedMaterial "{651F2FEC4AEEAD5A}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_M65_Ouman.emat"
+    }
+   }
+  }
+ }
+ coords 1.026 -4.261 0.867
+}

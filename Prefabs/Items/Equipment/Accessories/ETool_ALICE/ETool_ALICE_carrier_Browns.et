@@ -1,0 +1,9 @@
+GenericEntity : "{489C0EF4C8D47EBC}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_carrier_base.et" {
+ ID "5184C9ED092F50E0"
+ components {
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{991B712877833BEC}Assets/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_carrier_Browns.et"
+   ItemModel "{991B712877833BEC}Assets/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_carrier_Browns.et"
+  }
+ }
+}

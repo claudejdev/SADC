@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ BCRMap "{FBFD0442A9EA6E69}Assets/Items/Equipment/Accessories/Scabbard_M9Bayonet/Data/Scabbard_M9Bayonet_BCR.edds"
+ NMOMap "{C325BFD0709D3CF7}Assets/Items/Equipment/Accessories/Scabbard_M9Bayonet/Data/Scabbard_M9Bayonet_NMO.edds"
+}

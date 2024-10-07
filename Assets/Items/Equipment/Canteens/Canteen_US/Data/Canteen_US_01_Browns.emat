@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+ Specular 0.491 0.381 0.246 1
+ MetalnessScale 0
+ BCRMap "{4E77D7F69AC0D134}Assets/Items/Equipment/Canteens/Canteen_US/Data/Canteen_US_01_BCR.edds"
+ NMOMap "{76AF6C6443B783AA}Assets/Items/Equipment/Canteens/Canteen_US/Data/Canteen_US_01_NMO.edds"
+}

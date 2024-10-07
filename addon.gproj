@@ -1,0 +1,8 @@
+GameProject {
+ ID "Browns"
+ GUID "6286427A7FB715B5"
+ TITLE "Browns"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

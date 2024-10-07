@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ CavityFromAO 1
+ BCRMap "{19B02FD3ECDB8B9F}Assets/Characters/Vests/Vest_ALICE/Data/Vest_ALICE_BCR.edds"
+ NMOMap "{2168944135ACD901}Assets/Characters/Vests/Vest_ALICE/Data/Vest_ALICE_NMO.edds"
+}

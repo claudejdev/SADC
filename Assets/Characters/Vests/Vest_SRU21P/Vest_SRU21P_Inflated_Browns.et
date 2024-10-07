@@ -1,0 +1,19 @@
+GenericEntity {
+ ID "62867CB3EEFC357F"
+ components {
+  MeshObject "{62867CB3FFFEA890}" {
+   Object "{A5EAA7D8471AD5A1}Assets/Characters/Vests/Vest_SRU21P/Vest_SRU21P_Inflated.xob"
+   Materials {
+    MaterialAssignClass "{62867CB3E827E069}" {
+     SourceMaterial "Vest_SRU21P"
+     AssignedMaterial "{99AAEE555AA4A457}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_Browns.emat"
+    }
+    MaterialAssignClass "{62867CB3E827E04A}" {
+     SourceMaterial "Vest_SRU21P_A"
+     AssignedMaterial "{709E8C35EB838388}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_A_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 0.34 -4.394 1.396
+}

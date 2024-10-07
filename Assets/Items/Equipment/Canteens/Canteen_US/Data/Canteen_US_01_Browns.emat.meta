@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CCC5C8529A37585E}Assets/Items/Equipment/Canteens/Canteen_US/Data/Canteen_US_01_Browns.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

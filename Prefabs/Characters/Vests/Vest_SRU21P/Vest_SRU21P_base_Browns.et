@@ -1,0 +1,10 @@
+GenericEntity : "{78BBA3155AB87F87}Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{CCC7D283F0DD2CB9}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_Inflated_Browns.et"
+   ItemModel "{AC82F0C352A70868}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_item_Browns.et"
+   DeflatedModel "{CCC7D283F0DD2CB9}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_Inflated_Browns.et"
+  }
+ }
+}

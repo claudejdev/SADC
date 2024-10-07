@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C3C04F312FE"
+ components {
+  MeshObject "{62867C3C0CD12828}" {
+   Object "{7FF724B7B51E2059}Assets/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.xob"
+   Materials {
+    MaterialAssignClass "{62867C3C0037B03C}" {
+     SourceMaterial "M22_Binoculars"
+     AssignedMaterial "{C331C1D56914FE08}Assets/Items/Equipment/Binoculars/Binoculars_M22/Data/M22_Binoculars_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.504 -2.27 -2.585
+}

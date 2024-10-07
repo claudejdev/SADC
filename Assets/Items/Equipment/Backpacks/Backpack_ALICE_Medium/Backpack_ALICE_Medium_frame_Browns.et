@@ -1,0 +1,19 @@
+GenericEntity {
+ ID "62867C3F9389CEB0"
+ components {
+  MeshObject "{62867C3FA09CA3BA}" {
+   Object "{1F2390C7C31666DE}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame.xob"
+   Materials {
+    MaterialAssignClass "{62867C3F989B2F9E}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{DC78C30EF6B28915}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_Mlod_Browns.emat"
+    }
+    MaterialAssignClass "{62867C3F989B2F7E}" {
+     SourceMaterial "Radio_ANPRC77_01_M"
+     AssignedMaterial "{AF4DC8806DA01C5B}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_frame_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 3.54 -2.035 -1.34
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ BCRMap "{00AD11A9E607AB49}Assets/Items/Equipment/Accessories/ETool_ALICE/Data/ETool_ALICE_carrier_BCR.edds"
+ NMOMap "{3875AA3B3F70F9D7}Assets/Items/Equipment/Accessories/ETool_ALICE/Data/ETool_ALICE_carrier_NMO.edds"
+}

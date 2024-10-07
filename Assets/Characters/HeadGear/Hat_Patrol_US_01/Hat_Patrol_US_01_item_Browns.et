@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C98DBFC120D"
+ components {
+  MeshObject "{62867C98EAA9FDED}" {
+   Object "{A3944A406C4D58F6}Assets/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_item.xob"
+   Materials {
+    MaterialAssignClass "{62867C98E994939A}" {
+     SourceMaterial "Hat_Patrol_US_01"
+     AssignedMaterial "{3798FEB9282958C6}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_US_02_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 3.031 -1.523 1.948
+}

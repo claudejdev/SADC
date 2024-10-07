@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{81E05227CF4714C9}Assets/Characters/HeadGear/Helmet_M1/Data/Helmet_M1_01_Rooi.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

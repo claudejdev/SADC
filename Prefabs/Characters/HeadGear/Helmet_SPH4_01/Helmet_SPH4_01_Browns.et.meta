@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{89B37AB77B2BE2EB}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

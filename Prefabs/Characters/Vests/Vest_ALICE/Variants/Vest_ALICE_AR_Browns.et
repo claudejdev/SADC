@@ -1,0 +1,52 @@
+GenericEntity : "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et" {
+ ID "526492DCB8322C65"
+ components {
+  ClothNodeStorageComponent "{548AC69605F578B7}" {
+   Attributes SCR_ItemAttributeCollection "{548AC69605F578B9}" {
+    ItemDisplayName UIInfo "{548AC69605F578BF}" {
+     Name "ALICE - Automatic Rifleman - Brown"
+     Description "ALICE load-bearing system, with accoutrements intended for an automatic rifleman, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Materials {
+    MaterialAssignClass "{628E948292E07CF1}" {
+     SourceMaterial "M_ALICE_LoadBearingSystem"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo "{5174C3E96ACD276B}" {
+     Prefab "{EC4AE3612BC21BB0}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2_Browns.et"
+    }
+    LoadoutSlotInfo MagPouch {
+     Prefab "{66C77ECBC6D730DE}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249_Browns.et"
+    }
+    LoadoutSlotInfo MagPouch2 {
+     Prefab "{66C77ECBC6D730DE}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249_Browns.et"
+    }
+    LoadoutSlotInfo Etool {
+     Prefab "{E6BBF57731DD9A88}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_carrier_Browns.et"
+    }
+    LoadoutSlotInfo Buttpack {
+     Prefab "{BC24AA009DA262B6}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     Prefab "{9ED7E2A83012AAB0}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid_Browns.et"
+    }
+    LoadoutSlotInfo Cateen {
+     Prefab "{118CFB087D5B85B4}Prefabs/Items/Equipment/Canteens/Canteen_US_01_Browns.et"
+    }
+    LoadoutSlotInfo Bayonet {
+     Prefab "{EC77D94B644CCF99}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_M9/Scabbard_Bayonet_M9_Browns.et"
+    }
+   }
+   WornModel "{341AA3F5DAF39AA8}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Browns.et"
+   ItemModel "{808F4A0A388979D6}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_item_Browns.et"
+   DeflatedModel "{E302132075C08DE7}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Inflated_Browns.et"
+  }
+ }
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.165 0.098 0.033 1
+ SpecularIBL 0.165 0.098 0.033 1
+ Specular 0.165 0.098 0.033 1
+ BCRMap "{E3D6606E99EF03FB}Assets/Items/Equipment/Accessories/Holster_M12/Data/Holster_M12_BCR.edds"
+ NMOMap "{DB0EDBFC40985165}Assets/Items/Equipment/Accessories/Holster_M12/Data/Holster_M12_NMO.edds"
+}

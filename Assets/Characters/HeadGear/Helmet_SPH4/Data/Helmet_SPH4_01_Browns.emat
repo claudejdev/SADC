@@ -1,0 +1,16 @@
+MatPBRBasic {
+ Color 0.227 0.15 0.072 1
+ SpecularIBL 0.227 0.15 0.072 1
+ Specular 0.227 0.15 0.072 1
+ AlphaTest 0.019
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ CavityFromAO 1
+ BCRMap "{3D978E57F659D722}Assets/Characters/HeadGear/Helmet_SPH4/Data/Helmet_SPH4_01_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{054F35C52F2E85BC}Assets/Characters/HeadGear/Helmet_SPH4/Data/Helmet_SPH4_01_NMO.edds"
+ Refs {
+  "AlphaTest"
+  "SCR_ChimeraCharacter.m_fFaceAlphaTest"
+ }
+}

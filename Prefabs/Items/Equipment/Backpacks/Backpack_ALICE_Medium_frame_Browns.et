@@ -1,0 +1,17 @@
+GenericEntity : "{841162A79157C494}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_frame.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  InventoryItemComponent "{5254C2F99546AF75}" {
+   Attributes ItemAttributeCollection "{5254C2F98B1660BA}" {
+    ItemDisplayName UIInfo "{5254C2F98ACBB0BD}" {
+     Name "ALICE Medium Backpack Frame - Brown"
+     Description "Medium-sized, water repellent nylon backpack, designed in the 1970s for the ALICE equipment system, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornModel "{71C07C2148C3B0E9}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame_Browns.et"
+   ItemModel "{FAE92D11386CC797}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame_item_Browns.et"
+  }
+ }
+}

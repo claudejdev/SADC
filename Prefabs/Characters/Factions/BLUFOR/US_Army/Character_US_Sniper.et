@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{822F354DA35F8FD8}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_Browns.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Sniper - Browns"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1E028DD12DBF9BB4}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02_Browns.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C24076C376E347D4}Prefabs/Characters/Footwear/CombatBoots_US_01_Browns.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{803A7437BE78108B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_sniper_Browns.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_02_Browns.et"
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Pouch_ALICE_20rnd_M14_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5538C29D4709645E}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+    }
+   }
+  }
+ }
+}

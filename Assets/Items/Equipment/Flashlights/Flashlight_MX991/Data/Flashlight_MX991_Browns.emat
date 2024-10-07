@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ SurfaceProperties "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+ Specular 0.491 0.381 0.246 1
+ BCRMap "{DE2F3547FA7B03E1}Assets/Items/Equipment/Flashlights/Flashlight_MX991/Data/Flashlight_MX991_BCR.edds"
+ NMOMap "{E6F78ED5230C517F}Assets/Items/Equipment/Flashlights/Flashlight_MX991/Data/Flashlight_MX991_NMO.edds"
+}

@@ -1,0 +1,17 @@
+GenericEntity : "{64A970D059436047}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_M9/Scabbard_Bayonet_M9_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  BaseSlotComponent "{5526E8FB6EB9F3E1}" {
+   AttachType EntitySlotInfo Bayonet {
+    Offset 0 -0.062 0.0438
+    Angles -90 0 -90
+    Prefab "{558117556F3880A8}Prefabs/Weapons/Attachments/Bayonets/Bayonet_M9.et"
+    DeactivatePhysicsOnAtaching 1
+   }
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{3036DAF2CB6F9845}Assets/Items/Equipment/Accessories/Scabbard_M9Bayonet/Scabbard_M9Bayonet_Browns.et"
+   ItemModel "{3036DAF2CB6F9845}Assets/Items/Equipment/Accessories/Scabbard_M9Bayonet/Scabbard_M9Bayonet_Browns.et"
+  }
+ }
+}

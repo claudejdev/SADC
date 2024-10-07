@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E302132075C08DE7}Assets/Characters/Vests/Vest_ALICE/Data/Vest_ALICE_belt_Inflated_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

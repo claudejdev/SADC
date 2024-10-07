@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AFB5ED08E9CDC0D3}Assets/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Data/Pouch_ALICE_20rnd_M14_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

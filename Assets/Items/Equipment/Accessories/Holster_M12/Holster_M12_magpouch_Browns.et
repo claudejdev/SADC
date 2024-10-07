@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CBCA4488F55"
+ components {
+  MeshObject "{62867CBCAFB31785}" {
+   Object "{B572594E3CBC2C13}Assets/Items/Equipment/Accessories/Holster_M12/Holster_M12_magpouch.xob"
+   Materials {
+    MaterialAssignClass "{62867CBCA1589C04}" {
+     SourceMaterial "Holster_M12"
+     AssignedMaterial "{0201EB8999264CDB}Assets/Items/Equipment/Accessories/Holster_M12/Data/Holster_M12_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 1.475 -2.606 -3.05
+}

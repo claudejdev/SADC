@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E6BBF57731DD9A88}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_carrier_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

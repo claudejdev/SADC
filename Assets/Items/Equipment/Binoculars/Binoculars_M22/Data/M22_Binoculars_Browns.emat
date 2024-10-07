@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ BCRMap "{7EB5F307F64AF021}Assets/Items/Equipment/Binoculars/Binoculars_M22/Data/M22_Binoculars_BCR.edds"
+ NMOMap "{466D48952F3DA2BF}Assets/Items/Equipment/Binoculars/Binoculars_M22/Data/M22_Binoculars_NMO.edds"
+}

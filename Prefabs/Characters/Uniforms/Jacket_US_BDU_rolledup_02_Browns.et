@@ -1,0 +1,23 @@
+GameEntity : "{A080C1AEBF921DC4}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "M65 Field Jacket - Rolled-up, Brown"
+     Description "Vintage design of SADF field jacket, introduced in 1965 and made from a water and wind-resistant cotton-nylon blend, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{09C065B427F41EA0}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy_Browns.et"
+    }
+   }
+   WornModel "{0569F17A11BA519C}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_rolledup_Browns.et"
+   ItemModel "{E0ADDF99F107DFB1}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_item_Browns.et"
+   DeflatedModel "{756F79F6875B6B19}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_rolledup_Deflated_Browns.et"
+  }
+ }
+}

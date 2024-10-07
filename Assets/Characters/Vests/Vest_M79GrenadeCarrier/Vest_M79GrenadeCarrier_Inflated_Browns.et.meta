@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B57F5736298A49A9}Assets/Characters/Vests/Vest_M79GrenadeCarrier/Data/Vest_M79GrenadeCarrier_Inflated_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

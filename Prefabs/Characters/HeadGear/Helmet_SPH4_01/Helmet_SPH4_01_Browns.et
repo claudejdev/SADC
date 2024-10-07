@@ -1,0 +1,17 @@
+GameEntity : "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et" {
+ ID "5102FE5F1C91AA14"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "SPH-4 Helmet - Brown"
+     Description "Protective headgear worn by helicopter pilots and aircrews, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{90664D1C23F0DD2F}Assets/Characters/HeadGear/Helmet_SPH4/Helmet_SPH4_01_Browns.et"
+   ItemModel "{CB2C9352F803F75D}Assets/Characters/HeadGear/Helmet_SPH4/Helmet_SPH4_01_item_Browns.et"
+  }
+ }
+}

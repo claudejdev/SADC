@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.456 0.01 0.026 1
+ SpecularIBL 0.456 0.01 0.026 1
+ Specular 0.456 0.01 0.026 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{11A32DB2819892CF}Assets/Characters/HeadGear/Helmet_M1/Data/Helmet_M1_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{297B962058EFC051}Assets/Characters/HeadGear/Helmet_M1/Data/Helmet_M1_NMO.edds"
+}

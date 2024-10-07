@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4C781AA7F073D111}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_Pilot_US_01_item_Browns.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

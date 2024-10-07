@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{250252F0FB357503}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02_Ouman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

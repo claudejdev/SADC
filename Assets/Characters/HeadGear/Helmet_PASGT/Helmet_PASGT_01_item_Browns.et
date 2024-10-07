@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C8677554B79"
+ components {
+  MeshObject "{62867C867F4E9062}" {
+   Object "{83D664EDD42018B4}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_item.xob"
+   Materials {
+    MaterialAssignClass "{62867C867043D7B7}" {
+     SourceMaterial "Helmet_PASGT_Nocover"
+     AssignedMaterial "{9448570FB760257B}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.38 -1.851 1.763
+}

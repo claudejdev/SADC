@@ -1,0 +1,15 @@
+GenericEntity : "{01BD86DA804B1E37}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5174C3E615D4689F}" {
+   WornModel "{45AF77A1ED1528D0}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_Browns.et"
+   ItemModel "{C77AEF8B6F7D3249}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_item_Browns.et"
+   DeflatedModel "{12F56136287A4CC0}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_Inflated_Browns.et"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{62867CB197321A94}" {
+    }
+   }
+  }
+ }
+ coords 1304.012 52.301 1327.279
+}

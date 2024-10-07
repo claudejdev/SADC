@@ -1,0 +1,17 @@
+GameEntity : "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D6017C371EA6}" {
+    ItemDisplayName UIInfo "{52C8D60173B1164A}" {
+     Name "Bush Hat - Ouman"
+     Description "Wide-brim, cotton ripstop hat in the SADF distinctive ‘brown’ nutria camouflage, with ‘houding’. It belongs to a ‘ouman’ who had been serving for a while."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{43F4E6EA8B2A9100}Assets/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_Ouman.et"
+   ItemModel "{BB34CB9F9A41D39A}Assets/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_item_Ouman.et"
+  }
+ }
+}

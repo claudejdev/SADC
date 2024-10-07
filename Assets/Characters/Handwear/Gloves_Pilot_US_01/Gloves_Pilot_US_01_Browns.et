@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C9AB04DF0B1"
+ components {
+  MeshObject "{62867C9A477C049E}" {
+   Object "{A8061E6A146388AC}Assets/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.xob"
+   Materials {
+    MaterialAssignClass "{62867C9AB8FFB68C}" {
+     SourceMaterial "Pilot_Gloves"
+     AssignedMaterial "{FAC68C96EF07AE44}Assets/Characters/Handwear/Gloves_Pilot_US_01/Data/Gloves_Pilot_US_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 0.014 0.228 0.054
+}

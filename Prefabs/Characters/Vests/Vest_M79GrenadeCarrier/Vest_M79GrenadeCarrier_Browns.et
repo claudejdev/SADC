@@ -1,0 +1,9 @@
+GenericEntity : "{9945D5435F12C370}Prefabs/Characters/Vests/Vest_M79GrenadeCarrier/Vest_M79GrenadeCarrier.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{19942F92A6013E49}Assets/Characters/Vests/Vest_M79GrenadeCarrier/Vest_M79GrenadeCarrier_Browns.et"
+   ItemModel "{EF25D6B4006E84F9}Assets/Characters/Vests/Vest_M79GrenadeCarrier/Vest_M79GrenadeCarrier_item_Browns.et"
+  }
+ }
+}

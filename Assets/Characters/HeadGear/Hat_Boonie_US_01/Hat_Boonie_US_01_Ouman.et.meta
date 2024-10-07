@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{43F4E6EA8B2A9100}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_01_Ouman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

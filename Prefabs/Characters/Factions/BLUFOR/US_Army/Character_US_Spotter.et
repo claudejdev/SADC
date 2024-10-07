@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{822F354DA35F8FD8}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_Browns.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Spotter - Browns"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     122 45
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1E028DD12DBF9BB4}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02_Browns.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{17896D2B71DCD394}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02_Browns.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C24076C376E347D4}Prefabs/Characters/Footwear/CombatBoots_US_01_Browns.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{BED187A7C9071F9D}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_Browns.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FAF102BBBB198B4B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_GL_Browns.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02_Browns.et"
+    }
+    ItemsInitConfigurationItem "{54A49B43AB89B372}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5538C29F08474500}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_M79GrenadeCarrier/Vest_M79GrenadeCarrier_Browns.et"
+    }
+    ItemsInitConfigurationItem "{5538C29F083FF041}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+    }
+   }
+  }
+ }
+}

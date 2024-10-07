@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C31D2EC123D"
+ components {
+  MeshObject "{62867C31E69D7A55}" {
+   Object "{A89C472519F50877}Assets/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Pouch_ALICE_20rnd_M14.xob"
+   Materials {
+    MaterialAssignClass "{62867C31DEA38494}" {
+     SourceMaterial "Common/Materials/Game/fabric"
+     AssignedMaterial "{D2833B5A4C6CCA64}Assets/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Data/Common_Materials_Game_fabric_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.203 -2.311 -2.817
+}

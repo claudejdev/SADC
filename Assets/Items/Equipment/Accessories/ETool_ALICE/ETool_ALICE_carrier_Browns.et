@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CBC0615EDA1"
+ components {
+  MeshObject "{62867CBC228FE0BB}" {
+   Object "{2AACD9F538FAE162}Assets/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_carrier.xob"
+   Materials {
+    MaterialAssignClass "{62867CBC0D03BB56}" {
+     SourceMaterial "ETool_ALICE_carrier"
+     AssignedMaterial "{EFA34CFD4AD8F430}Assets/Items/Equipment/Accessories/ETool_ALICE/Data/ETool_ALICE_carrier_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.96 -1.846 -2.459
+}

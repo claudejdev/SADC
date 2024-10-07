@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C77AEF8B6F7D3249}Assets/Characters/Vests/Vest_ALICE/Data/Vest_ALICE_suspenders_item_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

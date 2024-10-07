@@ -1,0 +1,23 @@
+GameEntity : "{A080C1AEBF921DC4}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "M65 Field Jacket - Rolled-up, Ouman"
+     Description "Vintage design of SADF field jacket, introduced in 1965 and made from a water and wind-resistant cotton-nylon blend, in the SADF distinctive ‘brown’ nutria camouflage, with ‘houding’. It belongs to a ‘ouman’ who had been serving for a while."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{09C065B427F41EA0}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy_Browns.et"
+    }
+   }
+   WornModel "{1E24CC864E5F2145}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_rolledup_Ouman.et"
+   ItemModel "{17119E85CC0AF324}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_item_Ouman.et"
+   DeflatedModel "{09BCD53244AD5D4D}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_rolledup_Deflated_Ouman.et"
+  }
+ }
+}

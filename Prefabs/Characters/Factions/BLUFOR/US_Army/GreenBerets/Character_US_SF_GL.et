@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Ouman Grenadier"
+    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     122 46
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A17F5E1ED647CD1B}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02_Ouman.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{78EC814C67A97E6C}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02_Ouman.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FAF102BBBB198B4B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_GL_Browns.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60E69A2DF2E7E070}" {
+    }
+    ItemsInitConfigurationItem "{60E69A2DF203B8DC}" {
+    }
+    ItemsInitConfigurationItem "{60E69B5DE5A4AA9A}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_M79GrenadeCarrier/Vest_M79GrenadeCarrier_Browns.et"
+    }
+   }
+  }
+ }
+}

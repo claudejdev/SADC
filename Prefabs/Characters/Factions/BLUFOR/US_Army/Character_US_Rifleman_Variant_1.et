@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman - Browns, Bush Hat"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1E028DD12DBF9BB4}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02_Browns.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{17896D2B71DCD394}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02_Browns.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02_Browns.et"
+    }
+   }
+  }
+ }
+}

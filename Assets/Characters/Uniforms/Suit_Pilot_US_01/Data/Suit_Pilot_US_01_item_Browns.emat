@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.407 0.25 0.095 1
+ SpecularIBL 0.407 0.25 0.095 1
+ Specular 0.407 0.25 0.095 1
+ BCRMap "{7685A5CF5C083BD1}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_Pilot_US_01_item_BCR.edds"
+ NMOMap "{4E5D1E5D857F694F}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_Pilot_US_01_item_NMO.edds"
+}

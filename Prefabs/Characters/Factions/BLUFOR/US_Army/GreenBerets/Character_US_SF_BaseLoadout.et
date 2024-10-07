@@ -1,0 +1,60 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault VETERAN
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{92A0764C4EDF7C14}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_OliveGreen_Solid.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A17F5E1ED647CD1B}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02_Ouman.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CDD3E8524C471694}Prefabs/Characters/Uniforms/Jacket_US_BDU_02_Ouman.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{2D086A8C1E99912A}Prefabs/Characters/Uniforms/Pants_US_M65_Ouman.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{25A3F4A54C0FE64F}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01_Browns.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{411C9DF626E9C313}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_Browns.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{A6E70F815CC8E217}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_Browns.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65_Ouman.et"
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2_Browns.et"
+    }
+    ItemsInitConfigurationItem "{60E69A2DF2E7E070}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    ItemsInitConfigurationItem "{60E69A2DF203B8DC}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    ItemsInitConfigurationItem "{60E69A2DF2423D05}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+    }
+   }
+  }
+ }
+}

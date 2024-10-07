@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C8697F048DA"
+ components {
+  MeshObject "{62867C86A56E590B}" {
+   Object "{9F3547456AEF30D3}Assets/Characters/HeadGear/Helmet_SPH4/Helmet_SPH4_01_Item.xob"
+   Materials {
+    MaterialAssignClass "{62867C869EC89F5A}" {
+     SourceMaterial "Helmet_SPH4_01"
+     AssignedMaterial "{E69F26202428A5D1}Assets/Characters/HeadGear/Helmet_SPH4/Data/Helmet_SPH4_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.101 -1.231 1.636
+}

@@ -1,0 +1,19 @@
+GenericEntity {
+ ID "62867C3CFE2ED60F"
+ components {
+  MeshObject "{62867C3CBF20288D}" {
+   Object "{F8D670EE27974340}Assets/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.xob"
+   Materials {
+    MaterialAssignClass "{62867C3C842DC9B8}" {
+     SourceMaterial "FlashlightBase"
+     AssignedMaterial "{BC01B2516EF17777}Assets/Items/Equipment/Flashlights/Flashlight_MX991/Data/Flashlight_MX991_Browns.emat"
+    }
+    MaterialAssignClass "{62867C3C842DC9A4}" {
+     SourceMaterial "FlashlightBaseEM"
+     AssignedMaterial "{BA9D446B14D8CC4C}Assets/Items/Equipment/Flashlights/Flashlight_MX991/Data/Flashlight_MX991_EM_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.389 -2.775 -2.159
+}

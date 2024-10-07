@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B7F7D47DE2733AC6}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_M65_rolledup_Ouman.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

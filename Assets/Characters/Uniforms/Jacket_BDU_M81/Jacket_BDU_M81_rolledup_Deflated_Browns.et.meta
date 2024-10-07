@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{756F79F6875B6B19}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_M81_rolledup_Deflated_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

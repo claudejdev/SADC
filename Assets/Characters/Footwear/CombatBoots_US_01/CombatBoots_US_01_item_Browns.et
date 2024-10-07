@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C9CB93AE81B"
+ components {
+  MeshObject "{62867C9C6EB834B2}" {
+   Object "{2D13DB50F18C79C0}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01_item.xob"
+   Materials {
+    MaterialAssignClass "{62867C9C5E31CB78}" {
+     SourceMaterial "M_CombatBoots_US_01"
+     AssignedMaterial "{308E572CD8F79657}Assets/Characters/Footwear/CombatBoots_US_01/Data/CombatBoots_US_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 0.016 0.228 0.044
+}

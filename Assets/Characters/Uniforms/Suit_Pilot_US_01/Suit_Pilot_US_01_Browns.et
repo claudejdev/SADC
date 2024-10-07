@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C857FC20176"
+ components {
+  MeshObject "{62867C85028BE39E}" {
+   Object "{E340F083467A088B}Assets/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.xob"
+   Materials {
+    MaterialAssignClass "{62867C857AE2562D}" {
+     SourceMaterial "Suit_Pilot_US_01"
+     AssignedMaterial "{B26B8864DE4FD7B7}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_Pilot_US_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 3.41 -1.952 -1.741
+}

@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CB32D147C3D"
+ components {
+  MeshObject "{62867CB33EEEFA8F}" {
+   Object "{89FDC6289FA4F93D}Assets/Characters/Vests/Vest_M79GrenadeCarrier/Vest_M79GrenadeCarrier.xob"
+   Materials {
+    MaterialAssignClass "{62867CB33142E31C}" {
+     SourceMaterial "Vest_M79GrenadeCarrier"
+     AssignedMaterial "{EB28FB7693287903}Assets/Characters/Vests/Vest_M79GrenadeCarrier/Data/Vest_M79GrenadeCarrier_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 2.974 -90.059 -2.363
+}

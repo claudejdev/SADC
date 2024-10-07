@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{411C9DF626E9C313}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_Browns.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

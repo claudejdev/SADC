@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ CavityFromAO 0.853
+ BCRMap "{DF53A0DCC6221BDB}Assets/Items/Equipment/Backpacks/Backpack_Medical_M5/Data/Backpack_Medical_M5_BCR.edds"
+ NMOMap "{E78B1B4E1F554945}Assets/Items/Equipment/Backpacks/Backpack_Medical_M5/Data/Backpack_Medical_M5_NMO.edds"
+}

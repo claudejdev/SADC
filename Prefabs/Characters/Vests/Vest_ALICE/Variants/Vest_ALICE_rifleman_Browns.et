@@ -1,0 +1,52 @@
+GenericEntity : "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{52A09470BE81F96F}" {
+   Attributes SCR_ItemAttributeCollection "{52A0944E70CC0C82}" {
+    ItemDisplayName UIInfo "{52A0944E764742DB}" {
+     Name "ALICE - Rifleman - Brown"
+     Description "ALICE load-bearing system, with accoutrements intended for a rifleman,in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Materials {
+    MaterialAssignClass "{628E9482C301B83C}" {
+     SourceMaterial "M_ALICE_LoadBearingSystem"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo "{5174C3E96ACD276B}" {
+     Prefab "{EC4AE3612BC21BB0}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2_Browns.et"
+    }
+    LoadoutSlotInfo MagPouch {
+     Prefab "{40FB59D995DCBEAF}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    LoadoutSlotInfo MagPouch2 {
+     Prefab "{40FB59D995DCBEAF}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+    }
+    LoadoutSlotInfo Etool {
+     Prefab "{118CFB087D5B85B4}Prefabs/Items/Equipment/Canteens/Canteen_US_01_Browns.et"
+    }
+    LoadoutSlotInfo Buttpack {
+     Prefab "{BC24AA009DA262B6}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_Browns.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     Prefab "{9ED7E2A83012AAB0}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid_Browns.et"
+    }
+    LoadoutSlotInfo Cateen {
+     Prefab "{118CFB087D5B85B4}Prefabs/Items/Equipment/Canteens/Canteen_US_01_Browns.et"
+    }
+    LoadoutSlotInfo Bayonet {
+     Prefab "{EC77D94B644CCF99}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_M9/Scabbard_Bayonet_M9_Browns.et"
+    }
+   }
+   WornModel "{341AA3F5DAF39AA8}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Browns.et"
+   ItemModel "{808F4A0A388979D6}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_item_Browns.et"
+   DeflatedModel "{E302132075C08DE7}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Inflated_Browns.et"
+  }
+ }
+}

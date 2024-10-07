@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.407 0.25 0.095 1
+ SpecularIBL 0.407 0.25 0.095 1
+ SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+ Specular 0.407 0.25 0.095 1
+ BCRMap "{6ADFA94CB9EC5A63}Assets/Characters/Footwear/JungleBoots_01/Data/JungleBoots_01_BCR.edds"
+ NMOMap "{520712DE609B08FD}Assets/Characters/Footwear/JungleBoots_01/Data/JungleBoots_01_NMO.edds"
+}

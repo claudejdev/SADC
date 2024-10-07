@@ -1,0 +1,44 @@
+GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{445A1780D011D325}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid_item.xob"
+  }
+  SCR_SoundDataComponent "{5B18D20CB58D1DD7}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{CC0E5A1324E761C1}Sounds/Items/_SharedData/Drop/Items_Drop_Generic.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "#AR-LBSComponent_CompassCase_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.04
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 100
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      CameraDistanceToItem 0.2
+      FOV 30
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 100
+   MaxItemSize 5 5 5
+   m_fMaxWeight 0.5
+  }
+  BaseLoadoutClothComponent "{5242D7277AE45026}" : "{2B73E7D11406DC4D}Prefabs/Characters/Core/BaseLoadoutCloth_Base.ct" {
+   WornModel "{AFD7C4D7859DC92F}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid_Browns.et"
+   ItemModel "{3B18A00050496705}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid_item_Browns.et"
+  }
+ }
+ coords 0 0 0
+}

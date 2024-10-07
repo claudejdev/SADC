@@ -1,0 +1,17 @@
+GameEntity : "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et" {
+ ID "50B0A3042139DAF9"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{52C8D60185955516}" {
+     Name "PASGT Helmet - Brown"
+     Description "Combat helmet, offering basic ballistic protection from fragmentation and small arms fire, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{9173FD3087E52AA0}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_Browns.et"
+   ItemModel "{F2FF88B38C357C74}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_item_Browns.et"
+  }
+ }
+}

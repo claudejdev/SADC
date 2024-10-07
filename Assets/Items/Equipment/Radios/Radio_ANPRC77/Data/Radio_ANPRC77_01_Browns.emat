@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ BCRMap "{918DAC31E7157932}Assets/Items/Equipment/Radios/Radio_ANPRC77/Data/Radio_ANPRC77_01_BCR.edds"
+ NMOMap "{AFFD4A99902561FA}Assets/Items/Equipment/Radios/Radio_ANPRC77/Data/Radio_ANPRC77_01_NMO.edds"
+}

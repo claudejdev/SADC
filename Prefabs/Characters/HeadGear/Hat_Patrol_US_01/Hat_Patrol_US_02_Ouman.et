@@ -1,0 +1,17 @@
+GameEntity : "{9911F55EC05D1A64}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601606EB93C}" {
+    ItemDisplayName UIInfo "{52C8D6016792E1B8}" {
+     Name "Patrol Cap - Ouman"
+     Description "Wind-resistant field cap in the SADF distinctive ‘brown’ nutria camouflage, with ‘houding’, worn by in combat and garrison environments. It belongs to a ‘ouman’ who had been serving for a while."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{DC42BB85A3D81A37}Assets/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_Ouman.et"
+   ItemModel "{0EE1F70954386661}Assets/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_item_Ouman.et"
+  }
+ }
+}

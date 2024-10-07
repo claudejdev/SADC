@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6B6B34DB7F03A74D}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_M81_item_02_Browns.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

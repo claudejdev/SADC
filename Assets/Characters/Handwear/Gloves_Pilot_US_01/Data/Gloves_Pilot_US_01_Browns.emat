@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.366 0.242 0.114 1
+ SpecularIBL 0.366 0.242 0.114 1
+ Specular 0.366 0.242 0.114 1
+ BCRMap "{BBB5B2E0B3B24FF6}Assets/Characters/Handwear/Gloves_Pilot_US_01/Data/Gloves_Pilot_US_01_BCR.edds"
+ NMOMap "{836D09726AC51D68}Assets/Characters/Handwear/Gloves_Pilot_US_01/Data/Gloves_Pilot_US_01_NMO.edds"
+}

@@ -1,0 +1,17 @@
+GenericEntity : "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et" {
+ ID "5104869D194C6243"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D60139586A54}" {
+    ItemDisplayName UIInfo "{52C8D60138ED3590}" {
+     Name "Bush Boots"
+     Description "Standard issue combat footwear for SADF soldiers, originally developed for jungle conditions."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   WornModel "{EA5B68C0188C8F85}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_Browns.et"
+   ItemModel "{6770FC110FA8638E}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_item_Browns.et"
+  }
+ }
+}

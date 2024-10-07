@@ -1,0 +1,25 @@
+GenericEntity : "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "M22 Binoculars - Brown"
+     Description "Modern 7× fixed power magnification binoculars with milliradian reticle for fire control, in the SADF distinctive ‘brown’ nutria camouflage."
+    }
+   }
+  }
+  MeshObject "{5D0CB09DD1352E70}" {
+   Materials {
+    MaterialAssignClass "{628849375A6A7950}" {
+     SourceMaterial "M22_Binoculars"
+     AssignedMaterial "{C331C1D56914FE08}Assets/Items/Equipment/Binoculars/Binoculars_M22/Data/M22_Binoculars_Browns.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5D0CB09DD1352E5B}" {
+   WornModel "{988240B0A47FD890}Assets/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_Browns.et"
+   ItemModel "{988240B0A47FD890}Assets/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_Browns.et"
+  }
+ }
+}

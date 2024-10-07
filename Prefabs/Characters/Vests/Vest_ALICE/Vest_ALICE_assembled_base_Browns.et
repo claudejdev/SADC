@@ -1,0 +1,92 @@
+GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{8202B22690F0D679}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_item.xob"
+   Materials {
+    MaterialAssignClass "{628E94824E427E6B}" {
+     SourceMaterial "M_ALICE_LoadBearingSystem"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   Mass 2
+   ModelGeometry 1
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType LoadoutVestArea "{62867CB1640E1A7E}" {
+   }
+   Slots {
+    LoadoutSlotInfo "{5174C3E96ACD276B}" {
+     Prefab "{C66EC4C2DD2C7D9F}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_1_Browns.et"
+     EnableDeflatedOffset 1
+    }
+    LoadoutSlotInfo MagPouch {
+     PivotID "spine3"
+     Offset -0.105 0.04 0.068
+     Angles 0 -44.8 0
+     EnableDeflatedOffset 1
+     DeflatedOffset -0.1444 0.0678 0.1258
+     DeflatedAngles -9.4973 -44.8 0
+    }
+    LoadoutSlotInfo MagPouch2 {
+     PivotID "spine3"
+     Offset 0.095 0.04 0.07
+     Angles 0 44.30014 0
+     EnableDeflatedOffset 1
+     DeflatedOffset 0.1391 0.0699 0.1196
+     DeflatedAngles -8.673 44.3001 0
+    }
+    LoadoutSlotInfo Etool {
+     PivotID "spine3"
+     Offset -0.1897 -0.08 -0.067
+     Angles 0 59.6033 0
+     EnableDeflatedOffset 1
+     DeflatedOffset -0.1726 -0.0354 -0.1498
+     DeflatedAngles 4.3449 28.1597 -2.431
+    }
+    LoadoutSlotInfo Buttpack {
+     PivotID "spine3"
+     Offset 0 0.05 -0.11
+     Angles -20 180 0
+     EnableDeflatedOffset 1
+     DeflatedOffset 0.009 0.0903 -0.1623
+     DeflatedAngles -12.874 180 0
+    }
+    LoadoutSlotInfo FirstAid {
+     EnableDeflatedOffset 1
+     DeflatedOffset 0 0.0503 -0.0074
+    }
+    LoadoutSlotInfo Cateen {
+     PivotID "spine3"
+     Offset 0.18 -0.08 -0.09
+     Angles 0 -64.8 0
+     EnableDeflatedOffset 1
+     DeflatedOffset 0.1767 -0.0336 -0.1492
+     DeflatedAngles 4.3917 -54.0679 1.0887
+    }
+    LoadoutSlotInfo Bayonet {
+     PivotID "spine3"
+     Offset 0.145 0.03 0.01
+     Angles 0.8 78.5 -1.9
+     EnableDeflatedOffset 1
+     DeflatedOffset 0.1872 0.071 0.0202
+     DeflatedAngles -1.9002 71.85451 -1.9816
+    }
+   }
+   WornModel "{341AA3F5DAF39AA8}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Browns.et"
+   ItemModel "{808F4A0A388979D6}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_item_Browns.et"
+   DepthLeft 0.06
+   DepthRight 0.04
+   AreaOcludders {
+    "ChestLeftTopFront" "ChestRightTopFront" "ChestLeftBottomFront" "ChestRightBottomFront" "BeltFrontLeft" "BeltFrontRight"
+   }
+   DeflatedModel "{E302132075C08DE7}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Inflated_Browns.et"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{62867CB1640E1A51}" {
+    }
+   }
+  }
+ }
+}

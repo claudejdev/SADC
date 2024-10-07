@@ -1,0 +1,46 @@
+GenericEntity : "{2149560A9BEFBAC2}Prefabs/Items/Core/Equip_Accessory_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  MeshObject "{521AC04910AB9941}" {
+   Object "{6A10CB8FDDFC2F39}Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob"
+   Materials {
+    MaterialAssignClass "{628C360544B493B2}" {
+     SourceMaterial "vest_ALICE"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+  RigidBody "{521AC04910AB9947}" {
+   Mass 1.5
+  }
+  SCR_UniversalInventoryStorageComponent "{628C36099B7D2738}" {
+   Attributes SCR_ItemAttributeCollection "{628C36099B7D270A}" {
+    ItemDisplayName UIInfo "{628C36099B7D270E}" {
+     Name "#AR-LBSComponent_AmmoPouch_M16_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{628C36099B7D2703}" {
+     Weight 0.15
+     SizeSetupStrategy Manual
+     ItemVolume 800
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{628C36099B7D2705}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.4
+      FOV 10
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 800
+   MaxItemSize 10 10 10
+   m_fMaxWeight 5
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   Animate 0
+   WornModel "{E59881262B6EDD38}Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+   ItemModel "{E59881262B6EDD38}Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_Browns.et"
+  }
+ }
+}

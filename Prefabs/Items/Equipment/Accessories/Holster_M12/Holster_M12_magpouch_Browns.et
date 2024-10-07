@@ -1,0 +1,9 @@
+GenericEntity : "{12ABDF09B92D9545}Prefabs/Items/Equipment/Accessories/Holster_M12/Holster_M12_magpouch_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{4B03E797422E436D}Assets/Items/Equipment/Accessories/Holster_M12/Holster_M12_magpouch_Browns.et"
+   ItemModel "{4B03E797422E436D}Assets/Items/Equipment/Accessories/Holster_M12/Holster_M12_magpouch_Browns.et"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C3D0ED113F8"
+ components {
+  MeshObject "{62867C3D1124CAA4}" {
+   Object "{D29C3ADD27E3E71A}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_item.xob"
+   Materials {
+    MaterialAssignClass "{62867C3D73A3C5D5}" {
+     SourceMaterial "Radio_ANPRC77_01"
+     AssignedMaterial "{8B63A56CCB620006}Assets/Items/Equipment/Radios/Radio_ANPRC77/Data/Radio_ANPRC77_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords -0.122 -2.345 -3.714
+}

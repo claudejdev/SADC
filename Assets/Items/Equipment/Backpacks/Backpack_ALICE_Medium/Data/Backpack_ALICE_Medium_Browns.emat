@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.491 0.381 0.246 1
+ SpecularIBL 0.491 0.381 0.246 1
+ Specular 0.491 0.381 0.246 1
+ CavityFromAO 1
+ BCRMap "{AAB50C7BCA93CDF5}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_BCR.edds"
+ NMOMap "{926DB7E913E49F6B}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_NMO.edds"
+}

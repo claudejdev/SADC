@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C3C2A2AEC07"
+ components {
+  MeshObject "{62867C3C32D7BC0F}" {
+   Object "{A2F05BCE848CB8E1}Assets/Items/Equipment/Backpacks/Backpack_Medical_M5/Backpack_Medical_M5_item.xob"
+   Materials {
+    MaterialAssignClass "{62867C3C37310364}" {
+     SourceMaterial "Backpack_Medical_M5"
+     AssignedMaterial "{E7012687178DC6C6}Assets/Items/Equipment/Backpacks/Backpack_Medical_M5/Data/Backpack_Medical_M5_Browns.emat"
+    }
+   }
+  }
+ }
+ coords -0.533 -1.697 -4.098
+}

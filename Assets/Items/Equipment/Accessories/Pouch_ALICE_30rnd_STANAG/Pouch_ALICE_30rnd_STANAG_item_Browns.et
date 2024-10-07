@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867CBD797FE091"
+ components {
+  MeshObject "{62867CBD06E9CBB4}" {
+   Object "{23D8C8527EEC9304}Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_item.xob"
+   Materials {
+    MaterialAssignClass "{62867CBD7A048BD1}" {
+     SourceMaterial "vest_ALICE_6050030C5F99239F"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
+  }
+ }
+ coords 0.993 -1.786 -3.826
+}

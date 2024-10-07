@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "62867C9D8FF48AE6"
+ components {
+  MeshObject "{62867C9D9225C993}" {
+   Object "{A0E0E888D2DA4D6C}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_item.xob"
+   Materials {
+    MaterialAssignClass "{62867C9D8AAAAAE2}" {
+     SourceMaterial "JungleBoots_01"
+     AssignedMaterial "{AD7820FF5C453389}Assets/Characters/Footwear/JungleBoots_01/Data/JungleBoots_01_Browns.emat"
+    }
+   }
+  }
+ }
+ coords -0.002 0.228 0.105
+}
