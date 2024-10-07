@@ -12,10 +12,10 @@ The features I wanted to have right from the start are :
 - [x] Simplicity for the end-user, thus the Replacement way (overrides).
 - [x] SADF distinctive ‘brown’ nutria camouflage.
 - [x] ‘houding’ variants, hallmark of an ‘ouman’.
-- [x] extra lore.
+- [x] Rooi Staaldak.
 
 Known issues
-- [ ] The camouflage colors are off. Despite using recommended RGB colors, themselves an interpretation of Humbrol colors. It appears too dark in game.
+- [ ] The camouflage appear too dark ingame. Despite using recommended RGB values, themselves an interpretation of Humbrol colors.
 - [ ] The thumbnails are not matching the actual character. 
 
 
@@ -27,7 +27,9 @@ Future
 What else ?
 
 Thanks to Chaz for the inspiration.
-The mod's thumbnail is from [The Observation Post | South African military history](https://samilhistory.com/) blog. It's a great read.
+
+The mod's thumbnail is from [The Observation Post | South African military history](https://samilhistory.com/) blog.
+
 Reach out on Discord, where I wander clumsily around as [claudej](https://discord.com/users/297081142849568771)
 
 
