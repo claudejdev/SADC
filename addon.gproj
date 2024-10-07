@@ -1,8 +1,22 @@
 GameProject {
  ID "Browns"
  GUID "6286427A7FB715B5"
- TITLE "Browns"
+ TITLE "The Browns"
  Dependencies {
   "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
  }
 }

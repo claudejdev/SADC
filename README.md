@@ -1,7 +1,7 @@
 # Browns US Replacement
 
 
-[Browns US Replacement - Arma Reforger Workshop](https://reforger.armaplatform.com/workshop/624A8B96AA67EFEB-ATMAfricanFIAReplacement)
+[Browns US Replacement - Arma Reforger Workshop](https://reforger.armaplatform.com/workshop/6286427A7FB715B5-Browns)
 
 Spelled out, it's an ArmA Reforger mod that replaces the US faction's characters.
 
@@ -26,7 +26,7 @@ Future
 
 What else ?
 
-Thanks to Chaz for the inspiration.
+Thanks to Chaz and the gang for the inspiration.
 
 The mod's thumbnail is from [The Observation Post | South African military history](https://samilhistory.com/) blog.
 
