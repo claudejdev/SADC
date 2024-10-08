@@ -1,7 +1,9 @@
 MatPBRBasic {
- Color 0.407 0.25 0.095 1
- SpecularIBL 0.407 0.25 0.095 1
- Specular 0.407 0.25 0.095 1
+ Color 0.894 0.569 0.38 1
+ DiffuseIBL 0.914 0.765 0.682 1
+ SpecularIBL 0.914 0.765 0.682 1
+ Diffuse 0.914 0.765 0.682 1
+ Specular 0.914 0.765 0.682 1
  CavityFromAO 1
  BCRMap "{76A64DCB1A358112}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/M_Jacket_BDU_M81_02_item_BCR.edds"
  NMOMap "{4E7EF659C342D38C}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/M_Jacket_BDU_M81_02_item_NMO.edds"

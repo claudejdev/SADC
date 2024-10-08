@@ -1,7 +1,9 @@
 MatPBRBasic {
- Color 0.456 0.01 0.026 1
- SpecularIBL 0.456 0.01 0.026 1
- Specular 0.456 0.01 0.026 1
+ Color 0.706 0.098 0.176 1
+ DiffuseIBL 0.706 0.098 0.176 1
+ SpecularIBL 0.706 0.098 0.176 1
+ Diffuse 0.706 0.098 0.176 1
+ Specular 0.706 0.098 0.176 1
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1
  BCRMap "{11A32DB2819892CF}Assets/Characters/HeadGear/Helmet_M1/Data/Helmet_M1_BCR.edds"

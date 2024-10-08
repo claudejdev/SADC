@@ -1,8 +1,10 @@
 MatPBRBasic {
- Color 0.407 0.25 0.095 1
- SpecularIBL 0.407 0.25 0.095 1
+ Color 0.463 0.282 0.255 1
+ DiffuseIBL 0.463 0.282 0.255 1
+ SpecularIBL 0.463 0.282 0.255 1
+ Diffuse 0.463 0.282 0.255 1
  SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
- Specular 0.407 0.25 0.095 1
+ Specular 0.463 0.282 0.255 1
  CavityFromAO 1
  BCRMap "{934C8062E1825504}Assets/Characters/Footwear/CombatBoots_US_01/Data/CombatBoots_US_01_BCR.edds"
  NMOMap "{AB943BF038F5079A}Assets/Characters/Footwear/CombatBoots_US_01/Data/CombatBoots_US_01_NMO.edds"

@@ -1,7 +1,7 @@
 MatPBRBasic {
- Color 0.227 0.15 0.072 1
- SpecularIBL 0.227 0.15 0.072 1
- Specular 0.227 0.15 0.072 1
+ Color 0.165 0.098 0.033 1
+ SpecularIBL 0.165 0.098 0.033 1
+ Specular 0.165 0.098 0.033 1
  AlphaTest 0.019
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1

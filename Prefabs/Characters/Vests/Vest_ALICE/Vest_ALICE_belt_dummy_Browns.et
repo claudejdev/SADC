@@ -3,6 +3,12 @@ GenericEntity : "{2149560A9BEFBAC2}Prefabs/Items/Core/Equip_Accessory_base.et" {
  components {
   MeshObject "{521AC04910AB9941}" {
    Object "{8202B22690F0D679}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_item.xob"
+   Materials {
+    MaterialAssignClass "{6290CE02CD7FE552}" {
+     SourceMaterial "M_ALICE_LoadBearingSystem"
+     AssignedMaterial "{A6F25D61D5CA837B}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_Browns.emat"
+    }
+   }
   }
   BaseLoadoutClothComponent "{521AC04910AB9954}" {
    WornModel "{341AA3F5DAF39AA8}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_Browns.et"

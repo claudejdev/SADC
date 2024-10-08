@@ -1,7 +1,9 @@
 MatPBRBasic {
- Color 0.407 0.25 0.095 1
- DiffuseIBL 0.407 0.25 0.095 1
- Diffuse 0.407 0.25 0.095 1
+ Color 0.894 0.569 0.38 1
+ DiffuseIBL 0.914 0.765 0.682 1
+ SpecularIBL 0.914 0.765 0.682 1
+ Diffuse 0.914 0.765 0.682 1
+ Specular 0.914 0.765 0.682 1
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1
  BCRMap "{674C739E6BEB1E92}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_US_02_BCR.edds"

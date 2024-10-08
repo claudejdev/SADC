@@ -1,10 +1,10 @@
 MatPBRBasic {
- Color 0.407 0.25 0.095 1
- DiffuseIBL 0.407 0.25 0.095 1
- SpecularIBL 0.407 0.25 0.095 1
- Diffuse 0.407 0.25 0.095 1
+ Color 0.443 0.345 0.2 1
+ DiffuseIBL 0.443 0.345 0.2 1
+ SpecularIBL 0.443 0.345 0.2 1
+ Diffuse 0.443 0.345 0.2 1
  Cull none
- Specular 0.407 0.25 0.095 1
+ Specular 0.443 0.345 0.2 1
  BCRMap "{C747F852878A3496}Assets/Props/Fabric/Flags/Data/Flag_1_2_White_BCR.edds"
  NormalPower 1.2
  NMOMap "{C39D234EF0D4B94D}Assets/Props/Fabric/Flags/Data/Flag_1_2_N.edds"

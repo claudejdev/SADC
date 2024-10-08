@@ -1,8 +1,10 @@
 MatPBRBasic {
- Color 0.227 0.15 0.072 1
- SpecularIBL 0.227 0.15 0.072 1
+ Color 0.894 0.569 0.38 1
+ DiffuseIBL 0.894 0.569 0.38 1
+ SpecularIBL 0.894 0.569 0.38 1
+ Diffuse 0.894 0.569 0.38 1
  SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
- Specular 0.227 0.15 0.072 1
+ Specular 0.894 0.569 0.38 1
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1
  RoughnessScale 0.944

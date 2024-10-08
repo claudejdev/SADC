@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "6290CE1A17CF9A32"
+ components {
+  MeshObject "{6290CE1A2D070AD4}" {
+   Object "{D4DF94843E9B7823}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover.xob"
+  }
+ }
+ coords 1.752 4.785 2.941
+}

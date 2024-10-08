@@ -1,0 +1,16 @@
+MatPBRBasic {
+ Color 0.894 0.569 0.38 1
+ DiffuseIBL 0.914 0.765 0.682 1
+ SpecularIBL 0.914 0.765 0.682 1
+ Diffuse 0.914 0.765 0.682 1
+ Emissive 0.23 0.441 0.061 0
+ EmissiveLV -4
+ SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+ Specular 0.914 0.765 0.682 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ EmissiveMap "{18F2A417E13FD1AD}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_EM.edds"
+ BCRMap "{51C1C96708330767}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{691972F5D14455F9}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_NMO.edds"
+}
