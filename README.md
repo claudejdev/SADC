@@ -3,7 +3,7 @@
 
 [SADC - Arma Reforger Workshop](https://reforger.armaplatform.com/workshop/6286427A7FB715B5-SADC)
 
-Spelled out, it's an ArmA Reforger mod that replaces the US faction's characters.
+Spelled out, it's an ArmA Reforger mod that adds to the US Arsenal recoloured fatigues and items, as well as PKM and RPG.
 
 The intent of this project is to provide a lightweight and reliable BLUEFOR solution in a Southern African region environment.
 
